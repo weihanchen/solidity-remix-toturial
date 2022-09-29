@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "doWork",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pay",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"part1/work.sol": "Work"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"part1/work.sol": {
+			"keccak256": "0x6632526d7e09d58521571db62b6d3607df5047da581f7623ede839bd5de944d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e439b010af869c6df9a60311818e88fa2f74c14ffc7f02c109fd4f870b118229",
+				"dweb:/ipfs/QmRxRHcWNp2SrcfSHpVHUycFbw2tYkFp1kTGTEB4Nmhz8a"
+			]
+		}
+	},
+	"version": 1
+}
