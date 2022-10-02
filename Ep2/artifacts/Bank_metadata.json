@@ -76,7 +76,7 @@
 			"errors": {
 				"NotEnoughFunds(uint256,uint256)": [
 					{
-						"details": "自訂錯誤類型",
+						"details": "自訂錯誤類型: 資金不足",
 						"params": {
 							"available": "可用的資金",
 							"requested": "要求的資金"
@@ -87,13 +87,13 @@
 			"kind": "dev",
 			"methods": {
 				"deposit(uint256)": {
-					"details": "Functions(功能)"
+					"details": "Functions(功能): 存款並增加總資產"
 				},
 				"set(uint8)": {
 					"details": "將內部的狀態更新為外部指定的狀態"
 				},
 				"withdraw(uint256)": {
-					"details": "Errors(錯誤處理)"
+					"details": "Errors(錯誤處理): 提款並減少總資產"
 				}
 			},
 			"stateVariables": {
@@ -113,25 +113,8 @@
 			"version": 1
 		},
 		"userdoc": {
-			"errors": {
-				"NotEnoughFunds(uint256,uint256)": [
-					{
-						"notice": "資金不足"
-					}
-				]
-			},
 			"kind": "user",
-			"methods": {
-				"deposit(uint256)": {
-					"notice": "存款並增加總資產"
-				},
-				"set(uint8)": {
-					"notice": "更新狀態"
-				},
-				"withdraw(uint256)": {
-					"notice": "提款並減少總資產"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
@@ -152,11 +135,11 @@
 	},
 	"sources": {
 		"Ep2/bank.sol": {
-			"keccak256": "0x5d6aeee3fc02e0beef498ba11f6ee4cd335a193059871c5caf83d50eada3e975",
+			"keccak256": "0xb84d5c7facf69c3a3106d700c6a517e37995d09bb425906d0cf49219c5a012f2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73abbf81625eaa36c2ee3cc33e2846cd9840cd0767922c8875d372090b71c574",
-				"dweb:/ipfs/QmTZyBR5fGS8YTkt8mNmVn1ocJdDXzmDhjk5X2eiVXR1Ru"
+				"bzz-raw://d70d9511f6851be5c7a6ba6be01f1dfd871d1cf9a8c15729e22b7c5411866ff6",
+				"dweb:/ipfs/QmSFGcGhDujoWhZ2sZ4gbzEAJsD3Q89LhmHinEQ2rvoQ4r"
 			]
 		}
 	},
