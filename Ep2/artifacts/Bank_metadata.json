@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "requested",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "available",
+						"type": "uint256"
+					}
+				],
+				"name": "NotEnoughFunds",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Bank.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"errors": {
+				"NotEnoughFunds(uint256,uint256)": [
+					{
+						"details": "自訂錯誤類型",
+						"params": {
+							"available": "可用的資金",
+							"requested": "要求的資金"
+						}
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {
+				"deposit(uint256)": {
+					"details": "Functions(功能)"
+				},
+				"set(uint8)": {
+					"details": "將內部的狀態更新為外部指定的狀態"
+				},
+				"withdraw(uint256)": {
+					"details": "Errors(錯誤處理)"
+				}
+			},
+			"stateVariables": {
+				"account": {
+					"details": "帳號的變數宣告"
+				},
+				"owner": {
+					"details": "State Variables(狀態變數)"
+				},
+				"status": {
+					"details": "狀態的變數宣告"
+				},
+				"value": {
+					"details": "State Variables(狀態變數)"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"errors": {
+				"NotEnoughFunds(uint256,uint256)": [
+					{
+						"notice": "資金不足"
+					}
+				]
+			},
+			"kind": "user",
+			"methods": {
+				"deposit(uint256)": {
+					"notice": "存款並增加總資產"
+				},
+				"set(uint8)": {
+					"notice": "更新狀態"
+				},
+				"withdraw(uint256)": {
+					"notice": "提款並減少總資產"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep2/bank.sol": "Bank"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep2/bank.sol": {
+			"keccak256": "0x5d6aeee3fc02e0beef498ba11f6ee4cd335a193059871c5caf83d50eada3e975",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://73abbf81625eaa36c2ee3cc33e2846cd9840cd0767922c8875d372090b71c574",
+				"dweb:/ipfs/QmTZyBR5fGS8YTkt8mNmVn1ocJdDXzmDhjk5X2eiVXR1Ru"
+			]
+		}
+	},
+	"version": 1
+}
