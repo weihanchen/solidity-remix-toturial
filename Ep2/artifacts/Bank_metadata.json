@@ -86,14 +86,29 @@
 			},
 			"kind": "dev",
 			"methods": {
+				"constructor": {
+					"details": "The constructor sets the original `amount` of the contract to the bank.",
+					"params": {
+						"amount": "存款開戶的金額數量"
+					}
+				},
 				"deposit(uint256)": {
-					"details": "Functions(功能): 存款並增加總資產"
+					"details": "Functions(功能): 存款並增加總資產",
+					"params": {
+						"amount": "欲存款的金額數量"
+					}
 				},
 				"set(uint8)": {
-					"details": "將內部的狀態更新為外部指定的狀態"
+					"details": "將內部的狀態更新為外部指定的狀態",
+					"params": {
+						"_status": "欲更新的狀態"
+					}
 				},
 				"withdraw(uint256)": {
-					"details": "Errors(錯誤處理): 提款並減少總資產"
+					"details": "Errors(錯誤處理): 提款並減少總資產",
+					"params": {
+						"amount": "提款的金額數量"
+					}
 				}
 			},
 			"stateVariables": {
@@ -114,7 +129,11 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"withdraw(uint256)": {
+					"notice": "revert可以直接填上錯誤訊息或者自訂錯誤類型，稱之revert主要是在還沒改變狀態之前撤銷。"
+				}
+			},
 			"version": 1
 		}
 	},
@@ -135,11 +154,11 @@
 	},
 	"sources": {
 		"Ep2/bank.sol": {
-			"keccak256": "0xb84d5c7facf69c3a3106d700c6a517e37995d09bb425906d0cf49219c5a012f2",
+			"keccak256": "0x0c1f365ca67b10b9663410ddaf76a7992fb0fb61633e656acf3215141994891f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d70d9511f6851be5c7a6ba6be01f1dfd871d1cf9a8c15729e22b7c5411866ff6",
-				"dweb:/ipfs/QmSFGcGhDujoWhZ2sZ4gbzEAJsD3Q89LhmHinEQ2rvoQ4r"
+				"bzz-raw://e50201641d5b991b3ae1e43d8dab218647e7158876c510c5dbeb239fe127cb34",
+				"dweb:/ipfs/QmV4ispXemJ6zYxd2oqNbABpXWVvLD1DDQepdDKbvkXJqk"
 			]
 		}
 	},

@@ -12,6 +12,8 @@ contract Bank {
     /// @dev State Variables(狀態變數)
     address private owner;
 
+    /// @dev The constructor sets the original `amount` of the contract to the bank.
+    /// @param amount 存款開戶的金額數量
     constructor(uint amount) {
         value = amount;
         owner = msg.sender;
@@ -25,6 +27,7 @@ contract Bank {
     }
 
     /// @dev Functions(功能): 存款並增加總資產
+    /// @param amount 欲存款的金額數量
     function deposit(uint amount) public onlyOwner {
         value += amount;
     }
@@ -35,9 +38,14 @@ contract Bank {
     error NotEnoughFunds(uint requested, uint available);
 
     /// @dev Errors(錯誤處理): 提款並減少總資產
-    function withdraw(uint amount) public onlyOwner {
+    /// @param amount 提款的金額數量
+    /// @notice revert可以直接填上錯誤訊息或者自訂錯誤類型，稱之revert主要是在還沒改變狀態之前撤銷。
+    function withdraw(uint amount) 
+        public onlyOwner
+    {
         if (amount > value)
             revert NotEnoughFunds(amount, value);
+
         value -= amount;
     }
 
@@ -61,6 +69,7 @@ contract Bank {
     Status private status;
 
     /// @dev 將內部的狀態更新為外部指定的狀態
+    /// @param _status 欲更新的狀態
     function set(Status _status) public {
         status = _status;
     }
