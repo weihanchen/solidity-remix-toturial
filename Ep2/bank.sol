@@ -26,16 +26,24 @@ contract Bank {
         _;
     }
 
+    /// @dev 已存款的事件
+    /// @param addr 存款者的地址
+    /// @param amount 存多少金額
+    event Deposited(address addr, uint amount);
+
     /// @dev Functions(功能): 存款並增加總資產
     /// @param amount 欲存款的金額數量
     function deposit(uint amount) public onlyOwner {
         value += amount;
+
+        // 觸發已存款的事件
+        emit Deposited(msg.sender, amount); 
     }
 
     /// @dev 自訂錯誤類型: 資金不足
     /// @param requested 要求的資金
     /// @param available 可用的資金
-    error NotEnoughFunds(uint requested, uint available);
+    // error NotEnoughFunds(uint requested, uint available);
 
     /// @dev Errors(錯誤處理): 提款並減少總資產
     /// @param amount 提款的金額數量
@@ -44,7 +52,7 @@ contract Bank {
         public onlyOwner
     {
         if (amount > value)
-            revert NotEnoughFunds(amount, value);
+            // revert NotEnoughFunds(amount, value);
 
         value -= amount;
     }
