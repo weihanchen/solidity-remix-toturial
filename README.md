@@ -12,5 +12,5 @@
 
 ### 實戰篇
 - [【開發智能合約 - Solidity系列】實作篇Ep.1 - 看懂智能合約的脈絡](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E5%AF%A6%E4%BD%9C%E7%AF%87ep-1-%E7%9C%8B%E6%87%82%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E7%9A%84%E8%84%88%E7%B5%A1-b54bb8531a82)
-- [【開發智能合約 — Solidity系列】實作篇Ep.2 — 合約中的基本組成元素](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E5%AF%A6%E4%BD%9C%E7%AF%87ep-2-%E5%90%88%E7%B4%84%E4%B8%AD%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B5%84%E6%88%90%E5%85%83%E7%B4%A0-f244915b5ce4)
+- [【開發智能合約 - Solidity系列】實作篇Ep.2 - 合約中的基本組成元素](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E5%AF%A6%E4%BD%9C%E7%AF%87ep-2-%E5%90%88%E7%B4%84%E4%B8%AD%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B5%84%E6%88%90%E5%85%83%E7%B4%A0-f244915b5ce4)
 
