@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assignAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"hasChecked": {
+					"details": "尚未檢查過"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep3/example.sol": "Example"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep3/example.sol": {
+			"keccak256": "0xed54c058015727c428d8322c9acb48d556cb98b3dfa547d288819598ad0b932f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0df0d4ecda45b2cd59ee3448d4f53e48cd082f5020a5db8e4310dcde5161ba4d",
+				"dweb:/ipfs/QmU3Q14ncumqRmhRP3WnEbCCy5SrHk5S9MGpW3ZdMTirKS"
+			]
+		}
+	},
+	"version": 1
+}
