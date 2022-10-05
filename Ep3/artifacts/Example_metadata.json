@@ -11,11 +11,22 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "flowControlExample",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"flowControlExample()": {
+					"details": "流程控制範例"
+				}
+			},
 			"stateVariables": {
 				"hasChecked": {
 					"details": "尚未檢查過"
@@ -46,11 +57,11 @@
 	},
 	"sources": {
 		"Ep3/example.sol": {
-			"keccak256": "0xed54c058015727c428d8322c9acb48d556cb98b3dfa547d288819598ad0b932f",
+			"keccak256": "0xd1b35e4ae01c90e1fd44441819e4e35e8dad565fd6ce2792b520f2237f5192c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0df0d4ecda45b2cd59ee3448d4f53e48cd082f5020a5db8e4310dcde5161ba4d",
-				"dweb:/ipfs/QmU3Q14ncumqRmhRP3WnEbCCy5SrHk5S9MGpW3ZdMTirKS"
+				"bzz-raw://22a83c9f159c8724264f3851b42d71683ded21a0b3c474ea29a263285a47d5e9",
+				"dweb:/ipfs/Qmc9rDs5xGjkH3qPf4LTgqCqDsNpsT2E6QtUuiXF1Z1v9H"
 			]
 		}
 	},

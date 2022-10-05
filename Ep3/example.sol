@@ -24,4 +24,29 @@ contract Example {
         // end Ether (in units of wei) to a payable address
         payableAddr.transfer(10);
     }
+
+    /// @dev 流程控制範例
+    function flowControlExample() public pure {
+        /// @notice for...
+        /// @dev 累加10次的流程
+        uint count0 = 0;
+        for (uint i = 0; i < 10; i++) {
+            count0 += i;
+        }
+
+        /// @dev 相當於上述的for ...
+        uint count1 = 0;
+        do {
+            count1++;
+        } while(count1 < 10);
+
+        /// @dev if ... else ...
+        bool isOpen = true;
+        string memory status = "";
+        if (isOpen) {
+            status = "activated";
+        } else {
+            status = "closed";
+        }
+    }
 }
