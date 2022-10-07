@@ -11,6 +11,24 @@
 				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "start",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "secondsAfter",
+						"type": "uint256"
+					}
+				],
+				"name": "validate",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -41,11 +59,11 @@
 	},
 	"sources": {
 		"Ep4/example.sol": {
-			"keccak256": "0x99478102c4a86ebd4646fd7e942296920f3b6315b984af83e5fa58b689d8a36e",
+			"keccak256": "0xaaaf0bd1701e967d415272875a6ab929c351d4b7285eaf549db548748d240704",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://341886b96e1908178c6b1efef40449dab55f5cde570c7b16fcf6260adbcbdc16",
-				"dweb:/ipfs/QmP4rMCS9DzvRN4ofQEvgd89oAypJ9m3C2W91qHYagcx7d"
+				"bzz-raw://d47ea5b8ee2214900c747f397c0e999aa872b3b577618abec9e86994a5adf90b",
+				"dweb:/ipfs/QmSGTQNi5JX2nBBc2t8bECoiXHUpneUTBnyRf1hTVtuJCf"
 			]
 		}
 	},

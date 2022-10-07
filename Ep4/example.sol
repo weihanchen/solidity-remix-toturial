@@ -18,4 +18,11 @@ contract Example {
         // 1周 = 7天
         assert(1 weeks == 7 days);
     }
+
+    function validate(uint start, uint secondsAfter) public view {
+		// 區塊的時間戳記至少在3秒以前, 才算有效
+        if (block.timestamp >= start + secondsAfter * 3 seconds) {
+            // ...
+        }
+    }
 }
