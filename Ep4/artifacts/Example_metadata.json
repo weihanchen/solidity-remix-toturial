@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "TimeUnitExample",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep4/example.sol": "Example"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep4/example.sol": {
+			"keccak256": "0x99478102c4a86ebd4646fd7e942296920f3b6315b984af83e5fa58b689d8a36e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://341886b96e1908178c6b1efef40449dab55f5cde570c7b16fcf6260adbcbdc16",
+				"dweb:/ipfs/QmP4rMCS9DzvRN4ofQEvgd89oAypJ9m3C2W91qHYagcx7d"
+			]
+		}
+	},
+	"version": 1
+}
