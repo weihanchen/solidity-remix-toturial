@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.7.0;
 
 // @title 銀行合約
 contract Bank {
@@ -43,7 +43,7 @@ contract Bank {
     /// @dev 自訂錯誤類型: 資金不足
     /// @param requested 要求的資金
     /// @param available 可用的資金
-    // error NotEnoughFunds(uint requested, uint available);
+    error NotEnoughFunds(uint requested, uint available);
 
     /// @dev Errors(錯誤處理): 提款並減少總資產
     /// @param amount 提款的金額數量
@@ -52,7 +52,7 @@ contract Bank {
         public onlyOwner
     {
         if (amount > value)
-            // revert NotEnoughFunds(amount, value);
+            revert NotEnoughFunds(amount, value);
 
         value -= amount;
     }

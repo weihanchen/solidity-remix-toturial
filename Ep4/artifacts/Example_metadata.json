@@ -7,7 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "TimeUnitExample",
+				"name": "etherUnitExample",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeUnitExample",
 				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
@@ -26,7 +33,13 @@
 					}
 				],
 				"name": "validate",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			}
@@ -59,11 +72,11 @@
 	},
 	"sources": {
 		"Ep4/example.sol": {
-			"keccak256": "0xaaaf0bd1701e967d415272875a6ab929c351d4b7285eaf549db548748d240704",
+			"keccak256": "0xfb22ff62c5c287021c21322d7c1566db308335d288f0a406bf2ea9aa50874040",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d47ea5b8ee2214900c747f397c0e999aa872b3b577618abec9e86994a5adf90b",
-				"dweb:/ipfs/QmSGTQNi5JX2nBBc2t8bECoiXHUpneUTBnyRf1hTVtuJCf"
+				"bzz-raw://66bee589afbd187f8e4a6408ab8309f7d4a6386af71989eec227ef8bcc871f6c",
+				"dweb:/ipfs/QmXx8xMxAgzWvNNCaiEjJze9ouX8ep6xRbfZqkTRTGQxVp"
 			]
 		}
 	},

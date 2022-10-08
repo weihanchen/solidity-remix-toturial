@@ -44,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"part1/work.sol": "Work"
+			"Ep1/work.sol": "Work"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -58,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"part1/work.sol": {
-			"keccak256": "0x6632526d7e09d58521571db62b6d3607df5047da581f7623ede839bd5de944d0",
+		"Ep1/work.sol": {
+			"keccak256": "0x62dede35857b1ccb4cc7883fcb8d577a72058f9718dff8a466d150e6a8523315",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e439b010af869c6df9a60311818e88fa2f74c14ffc7f02c109fd4f870b118229",
-				"dweb:/ipfs/QmRxRHcWNp2SrcfSHpVHUycFbw2tYkFp1kTGTEB4Nmhz8a"
+				"bzz-raw://533ef26c7819e5d1c754848d246c64e71342ec4276a32ebeee3930ffc58c6342",
+				"dweb:/ipfs/QmaGr1avmue3eK168cEFsQEqNGEhMTc6WmwGL8R6T5EuHG"
 			]
 		}
 	},

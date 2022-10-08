@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.7.0;
 
 // @title 智能合約範例
 contract Example {
@@ -15,8 +15,8 @@ contract Example {
 
     string private str = "dynamic";
 
-    address payable payableAddr = payable(0xdCad3a6d3569DF655070DEd06cb7A1b2Ccd1D3AF);
-    address addr = address(this);
+    address payable private payableAddr = payable(0xdCad3a6d3569DF655070DEd06cb7A1b2Ccd1D3AF);
+    address private addr = address(this);
 
     function assignAddress() public {
         // the balance of an address using the property 

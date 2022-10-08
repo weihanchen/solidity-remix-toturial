@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.7.0;
 
 contract Work {
-    uint salary;
+    uint private salary;
 
     // Create a new work contract to initialize the salary
     constructor() {

@@ -17,6 +17,22 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "requested",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "available",
+						"type": "uint256"
+					}
+				],
+				"name": "NotEnoughFunds",
+				"type": "error"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -76,6 +92,17 @@
 			}
 		],
 		"devdoc": {
+			"errors": {
+				"NotEnoughFunds(uint256,uint256)": [
+					{
+						"details": "自訂錯誤類型: 資金不足",
+						"params": {
+							"available": "可用的資金",
+							"requested": "要求的資金"
+						}
+					}
+				]
+			},
 			"events": {
 				"Deposited(address,uint256)": {
 					"details": "已存款的事件",
@@ -155,11 +182,11 @@
 	},
 	"sources": {
 		"Ep2/bank.sol": {
-			"keccak256": "0x61bb1f9a74e137f74447c579776c4243f08ec387484970754dea7ab4f9fd62d2",
+			"keccak256": "0x7ba82065267c1a1dc7347d97f942bc7f65e4cc8f38846a619c34bbbbf829a414",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c6210487429c9ed02786474d4b4b560a4e09b744dc042a67f4ff0212ab4574f1",
-				"dweb:/ipfs/QmW7nENZpMfwHKuiFsmMEEhFUgze5U3iAnT8MSredzLv1X"
+				"bzz-raw://d3f2df0d44cfdd95fc1523e52180d484a8a1ed276cf096270261744bc29b10d3",
+				"dweb:/ipfs/QmRB9ExpgCKhA36C8Tc8VCe5XpP6aCAAchYcbXGq3qpkoT"
 			]
 		}
 	},
