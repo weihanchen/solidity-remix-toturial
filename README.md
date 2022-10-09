@@ -3,14 +3,15 @@
 ## 章節
 
 ### 概念篇
-- [【開發智能合約 - Solidity系列】淺談智能合約](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E6%B7%BA%E8%AB%87%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-4f7c510a7d3a)
-- [【開發智能合約 - Solidity系列】認識Solidity](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E8%AA%8D%E8%AD%98solidity-6e5677871d0f)
+- [【開發智能合約 - Solidity系列】概念篇 - 淺談智能合約](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E6%B7%BA%E8%AB%87%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-4f7c510a7d3a)
+- [【開發智能合約 - Solidity系列】概念篇 - 認識Solidity](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E8%AA%8D%E8%AD%98solidity-6e5677871d0f)
+- [【開發智能合約 — Solidity系列】概念篇： 關於虛擬沙盒Ethereum Virtual Machine(EVM)](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E6%A6%82%E5%BF%B5%E7%AF%87-%E9%97%9C%E6%96%BC%E8%99%9B%E6%93%AC%E6%B2%99%E7%9B%92ethereum-virtual-machine-evm-1d0885aa46b7)
 
 ### 環境與工具
-- [【開發智能合約 - Solidity系列】開發環境準備](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99-a3730f8dc88b)
-- [【開發智能合約 - Solidity系列】Remix編輯器常用的Plugin](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-remix%E7%B7%A8%E8%BC%AF%E5%99%A8%E5%B8%B8%E7%94%A8%E7%9A%84plugin-7ea454d98809)
-- [【開發智能合約 - Solidity系列】Remix Editor Change Git Commit Author](https://medium.com/@weihanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-remix-editor-change-git-commit-author-d17b65a4ed8a)
-- 【開發智能合約 - Solidity系列】如何使用Remix進行Debug
+- [【開發智能合約 - Solidity系列】環境與工具篇 - 開發環境準備](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99-a3730f8dc88b)
+- [【開發智能合約 - Solidity系列】環境與工具篇 - Remix編輯器常用的Plugin](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-remix%E7%B7%A8%E8%BC%AF%E5%99%A8%E5%B8%B8%E7%94%A8%E7%9A%84plugin-7ea454d98809)
+- [【開發智能合約 - Solidity系列】環境與工具篇 - Remix Editor Change Git Commit Author](https://medium.com/@weihanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-remix-editor-change-git-commit-author-d17b65a4ed8a)
+- [【開發智能合約 — Solidity系列】環境與工具篇 - 如何使用Remix進行Debug](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E7%92%B0%E5%A2%83%E8%88%87%E5%B7%A5%E5%85%B7%E7%AF%87-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8remix%E9%80%B2%E8%A1%8Cdebug-720aa99bbc30)
 
 ### 實作篇
 - [【開發智能合約 - Solidity系列】實作篇Ep.1 - 看懂智能合約的脈絡](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E5%AF%A6%E4%BD%9C%E7%AF%87ep-1-%E7%9C%8B%E6%87%82%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E7%9A%84%E8%84%88%E7%B5%A1-b54bb8531a82)
