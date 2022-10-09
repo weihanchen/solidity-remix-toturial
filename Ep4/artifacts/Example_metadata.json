@@ -13,6 +13,30 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "pow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "timeUnitExample",
 				"outputs": [],
@@ -72,11 +96,11 @@
 	},
 	"sources": {
 		"Ep4/example.sol": {
-			"keccak256": "0xfb22ff62c5c287021c21322d7c1566db308335d288f0a406bf2ea9aa50874040",
+			"keccak256": "0x13f3575fd214befa7512e016f46398b39c78fea866d9428fb6b5245c9cc25387",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://66bee589afbd187f8e4a6408ab8309f7d4a6386af71989eec227ef8bcc871f6c",
-				"dweb:/ipfs/QmXx8xMxAgzWvNNCaiEjJze9ouX8ep6xRbfZqkTRTGQxVp"
+				"bzz-raw://bc0e0bde1edb9494fdc1866ca6f98aa217d5f0c75f35d33428d2f61af0340817",
+				"dweb:/ipfs/QmYHmdjiR79sBxuBTSBky7LbLa52cqazPobZgaJ8ce4XUv"
 			]
 		}
 	},

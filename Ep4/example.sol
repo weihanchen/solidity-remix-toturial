@@ -2,16 +2,27 @@
 pragma solidity ^0.8.7.0;
 
 contract Example {
+    function pow(uint base, uint n) public pure returns(uint) {
+        return base**n;
+    }
+
     function etherUnitExample() public pure {
 
-        // wei是貨幣中的最小單位
-        require(1 wei == 1, "1 wei is not equal to 1");
+        // 1 wei是貨幣中的最小單位
+        uint oneWei = 1 wei;
+        
+        require(oneWei == 1, "1 wei is not equal to 1");
 
         // 1 gwei is equal to 10^9 wei
-        require(1 gwei == 1e9, "1 gwei is not equal to 1e9");
+        uint oneGWei = 1 gwei;
+        require(oneGWei == 1e9, "1 gwei is not equal to 1e9");
+        require(oneGWei == pow(10, 9));
 
         // 1 ether is equal to 10^18 wei
-        require(1 ether == 1e18, "1 ether is not equal to 1e18");
+        uint oneEther = 1 ether;
+        require(oneEther == 1e18, "1 ether is not equal to 1e18");
+        require(oneEther == pow(10, 18));
+        require(oneEther == 1000000000 * oneGWei, "1 ether is not equal to 1000000000 gwei");
     }
 
     function timeUnitExample() public pure {
