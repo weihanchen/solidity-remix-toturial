@@ -6,47 +6,32 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "requested",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "available",
-						"type": "uint256"
-					}
-				],
-				"name": "NotEnoughFunds",
-				"type": "error"
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "example",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "contract Example",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "withdraw",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "exec",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"errors": {
-				"NotEnoughFunds(uint256,uint256)": [
-					{
-						"details": "自訂錯誤類型: 資金不足",
-						"params": {
-							"available": "可用的資金",
-							"requested": "要求的資金"
-						}
-					}
-				]
-			},
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -59,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ep5/example.sol": "Example"
+			"Ep5/example.sol": "Runner"
 		},
 		"evmVersion": "london",
 		"libraries": {},

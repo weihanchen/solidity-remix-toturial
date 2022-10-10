@@ -23,3 +23,27 @@ contract Example {
         assert(amount > 0);
     }
 }
+
+contract Runner {
+    Example public example;
+
+    constructor() {
+        example = new Example();
+    }
+
+    function exec() public view {
+        uint errorCount = 0;
+        try example.withdraw(101) {
+            // 提款成功之後...
+        }  catch Error(string memory /*reason*/) {
+            // 這種錯誤類型主要是處理帶有錯誤訊息的錯誤處理函數： require(..., "錯誤訊息")、revert("撤銷訊息")
+            errorCount++;
+        } catch Panic(uint /*errorCode*/) {
+            // 這種錯誤類型主要處理assert(...)這種內部錯誤
+            errorCount++;
+        } catch (bytes memory /*lowLevelData*/) {
+            // 這種錯誤通常發生在更低階的處理，像是在解譯(decode)的階段
+            errorCount++;
+        } 
+    }
+}
