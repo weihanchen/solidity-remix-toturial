@@ -48,7 +48,7 @@
 				"inputs": [],
 				"name": "testScope",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -65,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ep6/example.sol": "Base"
+			"Ep6/example.sol": "Extend"
 		},
 		"evmVersion": "london",
 		"libraries": {},

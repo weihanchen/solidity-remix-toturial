@@ -41,11 +41,11 @@
 	},
 	"sources": {
 		"Ep6/example.sol": {
-			"keccak256": "0x020f9965106139b9e5b65fc2ab185c1210456f2b7862883e666b51706c33284a",
+			"keccak256": "0xdf60ee8ec8a0b17c623a5fa7b923de7a23187dc833ac8c5a03cf9b32c714c9ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e56ebf7ec4e986c0a46e45f089646cfe5a96be113c28f26693408951539cb27",
-				"dweb:/ipfs/QmXXxrugD67Ug73LT8bLwxdkwihwSazWbQYXzwm6R34rM1"
+				"bzz-raw://0f10b3072f774b7dd738e97bb66609b0a70532339d25141c38af9ac2a364320d",
+				"dweb:/ipfs/QmSNrWktxnfwSUaJbpfzXTW4KeCd7MqyEdLLam4aBZ7raY"
 			]
 		}
 	},

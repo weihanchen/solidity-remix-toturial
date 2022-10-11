@@ -80,11 +80,11 @@
 	},
 	"sources": {
 		"Ep6/example.sol": {
-			"keccak256": "0x020f9965106139b9e5b65fc2ab185c1210456f2b7862883e666b51706c33284a",
+			"keccak256": "0xb1dd9559555a434ad88a51c89048804796aaea7cf7c12578591074030a259031",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e56ebf7ec4e986c0a46e45f089646cfe5a96be113c28f26693408951539cb27",
-				"dweb:/ipfs/QmXXxrugD67Ug73LT8bLwxdkwihwSazWbQYXzwm6R34rM1"
+				"bzz-raw://8c49175b81f1ff1fd2cb284c1f92147789a234be87c96e2456f9d85bbffbcc3a",
+				"dweb:/ipfs/QmagcEVq3bQaQVDZc9d4RfQjT1qYDdnmzKUWg7xCBsm5mU"
 			]
 		}
 	},
