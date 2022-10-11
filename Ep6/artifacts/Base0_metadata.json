@@ -7,17 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "externalJob",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "example",
+				"name": "publicJob",
 				"outputs": [
 					{
-						"internalType": "contract Example",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicMsg",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -25,7 +46,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "exec",
+				"name": "testScope",
 				"outputs": [],
 				"stateMutability": "view",
 				"type": "function"
@@ -44,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ep5/example.sol": "Runner"
+			"Ep6/example.sol": "Base0"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -58,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ep5/example.sol": {
-			"keccak256": "0x4efd5356f45a62941722e36d5a6ec0a62e7cd127127f7a14840a225cecae0a6e",
+		"Ep6/example.sol": {
+			"keccak256": "0x020f9965106139b9e5b65fc2ab185c1210456f2b7862883e666b51706c33284a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9bd51353970e56f778e92bb4d4ed14b180480fe68f8f51c1035a3ff5e2147f9a",
-				"dweb:/ipfs/QmZSu8heqU5KLnKxuGp7Qqv79TaTKePPewDoYsKf6vkMjP"
+				"bzz-raw://4e56ebf7ec4e986c0a46e45f089646cfe5a96be113c28f26693408951539cb27",
+				"dweb:/ipfs/QmXXxrugD67Ug73LT8bLwxdkwihwSazWbQYXzwm6R34rM1"
 			]
 		}
 	},
