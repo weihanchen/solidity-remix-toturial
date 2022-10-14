@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep8/example.sol": "Example"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep8/example.sol": {
+			"keccak256": "0x7399ce53499f224ebe678070dc49ab8d2457b4240eef1c841c4466973ef5e336",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35f877a44e6e54af9c3146ed5e6bc9b81179271f97f3838b7703a536cb54cc6a",
+				"dweb:/ipfs/QmU8js8LmFCmffWQzGgb4yWNtZVAhha1xrd5mrKjbfcWdq"
+			]
+		}
+	},
+	"version": 1
+}
