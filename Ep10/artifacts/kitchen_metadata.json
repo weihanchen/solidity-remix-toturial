@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep10/example.sol": "kitchen"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep10/example.sol": {
+			"keccak256": "0xe12a771697da51b8810af980543fbc855e2e430a907858c5480efa8c546d978d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e3c6eb45150647bbfb26af9f2ea26076ecb6ded8c66783d6aec2044ccc5ac34",
+				"dweb:/ipfs/QmQPVPYcdFefMB16xYdZ9yBLa5CCwJWf2DtGigdqBAgLDR"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "drive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep10/example.sol": "Car"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep10/example.sol": {
+			"keccak256": "0x39046e0901f83c6734a9c3ab584e53e3afc278916d98b3000a37188f54af9048",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf9ed68f8285e21cef76e9797c2ec6266d7481d87dfdaf9c7013b9dba31da15c",
+				"dweb:/ipfs/QmTVqrj6tgKvHJ5h4zjcqZy84qa7PJfVaaxeHdDDcgCkA3"
+			]
+		}
+	},
+	"version": 1
+}
