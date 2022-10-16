@@ -7,6 +7,32 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "basic",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "basic0",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getTitle",
 				"outputs": [
 					{
@@ -60,11 +86,11 @@
 	},
 	"sources": {
 		"Ep9/example.sol": {
-			"keccak256": "0xfe0b2cefec4ea27588461dab797363ec361ecf6c05bf7b3b47b96c539ce60216",
+			"keccak256": "0xa4e4f2964b4f869ccf00d13657888035eda0b14e14b2e9ad66990c03333888cf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a98cce646199469394d21c578b4e9c516c012eccd19ccd7c9766cd2fb12941a7",
-				"dweb:/ipfs/QmRn7i2wAswDDP8CSod6w86innz81nujQCCjArAC8F1K5M"
+				"bzz-raw://bac6a13373770a3ff7be62a409230b2e0918fe8401d8a625fb649900465439b7",
+				"dweb:/ipfs/QmRVy431xaRCRqn2GZA8zPkqbZUTmB7YLsxoBamp9GthDN"
 			]
 		}
 	},

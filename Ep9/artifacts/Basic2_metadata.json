@@ -6,15 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "_title",
+						"name": "msg",
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "Log",
+				"type": "event"
 			},
 			{
 				"inputs": [],
@@ -31,7 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "basic1",
+				"name": "basic0",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -53,6 +55,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -82,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ep9/example.sol": "Basic1"
+			"Ep9/example.sol": "Basic2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
