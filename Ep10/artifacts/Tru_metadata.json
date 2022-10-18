@@ -40,7 +40,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ep10/example.sol": "Car"
+			"Ep10/example.sol": "Tru"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -55,11 +55,11 @@
 	},
 	"sources": {
 		"Ep10/example.sol": {
-			"keccak256": "0x6dfdb04c85eed7e103740e75f1931eada0b515ec64cd015b9ce08929a5f68fa4",
+			"keccak256": "0x527978b4f15a8b40e5ad1fb7463991bdc0a61f8450f20af493fa63fa3696e368",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://27f131fed614feed1ac75c150a43e2bfcae28fe1aa41c7db1b6bfe9262f6b55c",
-				"dweb:/ipfs/QmSbzg69CWMKVdxDCebtS5vqGMKmpF2WzuZAqM9xdTL6pZ"
+				"bzz-raw://7e4f60f38e353f053e16204f7b8092a0fce5f9d8bc9ab589932d577baa992c07",
+				"dweb:/ipfs/QmSRHSTer5YE7KWNVoCWBDkYXvGtfPxZBSCCtGDjtPBoSa"
 			]
 		}
 	},
