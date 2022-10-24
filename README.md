@@ -6,6 +6,7 @@
 - [【開發智能合約 - Solidity系列】概念篇 - 淺談智能合約](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E6%B7%BA%E8%AB%87%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-4f7c510a7d3a)
 - [【開發智能合約 - Solidity系列】概念篇 - 認識Solidity](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E8%AA%8D%E8%AD%98solidity-6e5677871d0f)
 - [【開發智能合約 - Solidity系列】概念篇 - 關於虛擬沙盒Ethereum Virtual Machine(EVM)](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E6%A6%82%E5%BF%B5%E7%AF%87-%E9%97%9C%E6%96%BC%E8%99%9B%E6%93%AC%E6%B2%99%E7%9B%92ethereum-virtual-machine-evm-1d0885aa46b7)
+- [【開發智能合約 — Solidity系列】概念篇： 區塊鏈也要燃料費用？ 到底什麼是Gas呢？](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E6%A6%82%E5%BF%B5%E7%AF%87-%E5%8D%80%E5%A1%8A%E9%8F%88%E4%B9%9F%E8%A6%81%E7%87%83%E6%96%99%E8%B2%BB%E7%94%A8-%E5%88%B0%E5%BA%95%E4%BB%80%E9%BA%BC%E6%98%AFgas%E5%91%A2-2179513f4b58)
 
 ### 環境與工具
 - [【開發智能合約 - Solidity系列】環境與工具篇 - 開發環境準備](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99-a3730f8dc88b)
