@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "draw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"name": "draw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "draw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"draw(uint256)": {
+					"details": "繪製x軸"
+				},
+				"draw(uint256,uint256)": {
+					"details": "繪製x、y軸的平面圖"
+				},
+				"draw(uint256,uint256,uint256)": {
+					"details": "繪製x、y、z軸的3D圖"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"draw(uint256)": {
+					"notice": "繪製單點圖"
+				},
+				"draw(uint256,uint256)": {
+					"notice": "繪製平面圖"
+				},
+				"draw(uint256,uint256,uint256)": {
+					"notice": "繪製3D圖"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep12/example.sol": "OverloadingExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep12/example.sol": {
+			"keccak256": "0x6886d39cf662406f69d2b69bea349eff837f964fc541a2b0e250f616b7410e13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f40ef735887a327e99d7903ddfb461037eb06b8293a66b0098abff928497a682",
+				"dweb:/ipfs/QmV1yALwEQBU2SZULTgkX77rNJ6Gx65wFnnBYhfK7m1zJx"
+			]
+		}
+	},
+	"version": 1
+}
