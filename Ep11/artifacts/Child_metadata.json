@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "doJob",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"doJob()": {
+					"details": "繼承並覆寫應使用override關鍵字宣告"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"doJob()": {
+					"notice": "工作"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ep11/example.sol": "Child"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ep11/example.sol": {
+			"keccak256": "0x5f445853df33165695c1a0c371ab7697ef3c93c48ab21a693d6be60ebd4e7dcc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://876dfefa3dd2f4f859f9741ae2d7875439542b6ec93c87e811cc00fcc708b174",
+				"dweb:/ipfs/QmPSdPJbSBe4cvL2H3a6kkettJkQ83UKwhnaRHq1dokaQq"
+			]
+		}
+	},
+	"version": 1
+}
