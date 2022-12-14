@@ -32,3 +32,4 @@
 - [【開發智能合約 - Solidity系列】實作篇Ep.12 - 合約內同名但不同用途的函數超載(Function Overloading)](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E5%AF%A6%E4%BD%9C%E7%AF%87ep-12-%E5%90%88%E7%B4%84%E5%85%A7%E5%90%8C%E5%90%8D%E4%BD%86%E4%B8%8D%E5%90%8C%E7%94%A8%E9%80%94%E7%9A%84%E5%87%BD%E6%95%B8%E8%B6%85%E8%BC%89-function-overloading-5b41aa8f7c6e)
 - [【開發智能合約 - Solidity系列】實作篇Ep.13 - 抽象化的合約(Abstract Contracts)](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-solidity%E7%B3%BB%E5%88%97-%E5%AF%A6%E4%BD%9C%E7%AF%87ep-13-%E6%8A%BD%E8%B1%A1%E5%8C%96%E7%9A%84%E5%90%88%E7%B4%84-abstract-contracts-587a3ccacfdf)
 - [【開發智能合約 - Solidity系列】實作篇Ep.14 - 動動手來打造函式庫吧(Library)](https://medium.com/willhanchen/開發智能合約-solidity系列-實作篇ep-14-動動手來打造函式庫吧-library-9ef24329a383)
+- [【開發智能合約 - Solidity系列】實作篇Ep.15 - 映射的奧秘(Mapping)](https://medium.com/willhanchen/開發智能合約-solidity系列-實作篇ep-15-映射的奧秘-mapping-3f1fa86a70ea)
