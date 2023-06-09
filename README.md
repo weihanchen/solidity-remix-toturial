@@ -9,7 +9,7 @@
 - [【開發智能合約 - Solidity系列】概念篇： 區塊鏈也要燃料費用？ 到底什麼是Gas呢？](https://vocus.cc/article/645d7958fd89780001123e6f)
 
 ### 密碼學系列
-- [【開發智能合約 - 密碼學系列】編碼(Encode)、雜湊(Hash)、加密(Encrypt)傻傻分不清楚？](https://medium.com/willhanchen/%E9%96%8B%E7%99%BC%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-%E5%AF%86%E7%A2%BC%E5%AD%B8%E7%B3%BB%E5%88%97-%E7%B7%A8%E7%A2%BC-encode-%E9%9B%9C%E6%B9%8A-hash-%E5%8A%A0%E5%AF%86-encrypt-%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A-530184533bb8)
+- [【開發智能合約 - 密碼學系列】編碼(Encode)、雜湊(Hash)、加密(Encrypt)傻傻分不清楚？](https://vocus.cc/article/646a9a2dfd897800019e4acf)
 
 ### 環境與工具
 - [【開發智能合約 - Solidity系列】環境與工具篇 - 開發環境準備](https://vocus.cc/article/644c7c9afd897800015a3698)
@@ -32,4 +32,5 @@
 - [【開發智能合約 - Solidity系列】實作篇Ep.12 - 合約內同名但不同用途的函數超載(Function Overloading)](https://vocus.cc/article/6460e011fd89780001d3fe50)
 - [【開發智能合約 - Solidity系列】實作篇Ep.13 - 抽象化的合約(Abstract Contracts)](https://vocus.cc/article/64616101fd89780001d8f852)
 - [【開發智能合約 - Solidity系列】實作篇Ep.14 - 動動手來打造函式庫吧(Library)](https://vocus.cc/article/64624544fd89780001e9b6bf)
-- [【開發智能合約 - Solidity系列】實作篇Ep.15 - 映射的奧秘(Mapping)](https://medium.com/willhanchen/開發智能合約-solidity系列-實作篇ep-15-映射的奧秘-mapping-3f1fa86a70ea)
+- [【開發智能合約 - Solidity系列】實作篇Ep.15 - 映射的奧秘(Mapping)](https://vocus.cc/article/646b642dfd89780001ab1a76)
+- [【開發智能合約 — Solidity系列】實作篇Ep.16 — 匯入模組拚積木(Import)](https://vocus.cc/article/646d3ab0fd89780001f8cf5b)
