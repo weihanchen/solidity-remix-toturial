@@ -10,6 +10,7 @@
 
 ### 密碼學系列
 - [【開發智能合約 - 密碼學系列】編碼(Encode)、雜湊(Hash)、加密(Encrypt)傻傻分不清楚？](https://vocus.cc/article/646a9a2dfd897800019e4acf)
+- [【開發智能合約 - 密碼學系列】雜湊(Hash)的背後究竟怎麼「湊」的呢？](https://vocus.cc/article/64b52d09fd8978000163d494)
 
 ### 環境與工具
 - [【開發智能合約 - Solidity系列】環境與工具篇 - 開發環境準備](https://vocus.cc/article/644c7c9afd897800015a3698)
